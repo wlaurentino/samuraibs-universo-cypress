@@ -1,8 +1,14 @@
 {
     "baseUrl": "http://localhost:3000",
     "viewportWidth": 1440,
-    "viewportHeight": 900
-      
+    "viewportHeight": 900,
+    "dbConfig": {
+        "host": "rajje.db.elephantsql.com",
+        "user": "vgatetsf",
+        "password": "k_-nIBME-sdZB6Y2cbz9eWY6-b6RHwmX",
+        "database": "vgatetsf",
+        "port": 5432
+    }
 
 
 }
