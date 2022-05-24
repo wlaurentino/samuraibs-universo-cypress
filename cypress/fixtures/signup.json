@@ -1,0 +1,24 @@
+{
+  "sucess": {
+    "name": "William Laurentino",
+    "email": "wlaurentino@samuraibs.com",
+    "password": "Lauren!2112"
+  },
+  "email_dup": {
+    "name": "Alessandra Maria",
+    "email": "ale@samuraibs.com",
+    "password": "ale123",
+    "is_provider": true
+  },
+  "email_inv": {
+    "name": "Dona Maria",
+    "email": "dmaria.yahoo.com",
+    "password": "dmaria123"
+  },
+
+  "short_password": {
+    "name": "Jason Friday",
+    "email": "jason@gmail.com",
+    "password": null
+  }
+}

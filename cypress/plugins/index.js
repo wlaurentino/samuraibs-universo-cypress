@@ -38,6 +38,21 @@ module.exports = (on, config) => {
         })
       })
 
+    },
+    findToken(email){
+      return new Promise(function(resolve){
+        pool.query('select b.token from ' +
+         'public.users a ' +
+          'inner join public.user_tokens b ' +
+          'on a.id = b.user_id ' +
+          'where a.email = $1 ' +
+          'order by b.created_at', [email], function(error, result){
+            if(error) {
+              throw error 
+            }
+            resolve({token: result.rows[0].token})
+          })
+      })
     }
 
   })
