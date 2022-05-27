@@ -14,6 +14,7 @@ describe('resgate de senha', function () {
 
         before(function () {
             cy.postUser(this.data)
+            cy.wait(10000)
         })
 
 
